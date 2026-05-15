@@ -499,3 +499,6 @@ else:
 	game1 = game.Game(n, [w, k, p, wi, h, c])
 	print("The game begins...")
 	bot.polling()
+
+if __name__ == "__main__":
+    bot.infinity_polling()
